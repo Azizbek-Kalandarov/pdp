@@ -1,0 +1,33 @@
+* {
+ box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+.telegram-icon {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  color: #000;
+  text-decoration-line: none;
+
+}
+
+/* Decor img  */
+.telegram-icon::before {
+  display:inline-block;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/906/906377.png");
+  background-size: 50px;
+  content: "";
+}
